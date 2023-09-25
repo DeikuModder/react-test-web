@@ -1,0 +1,36 @@
+@import '/src/Styles/abstracts/variables';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+html, body, button {
+    font-family: 'Oswald', sans-serif;
+}
+
+#themeSwitch {
+
+    font-size: 2em;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    padding: 5px;
+
+    border-radius: 15px;
+
+    width: 70px;
+    height: 45px;
+
+    display: flex;
+
+    &.light {
+        background-color: $light-base;
+        justify-content: end;
+        color: $light-complement;
+    }
+
+    &.dark {
+        background-color: $dark-base;
+        justify-content: start;
+        color: $dark-complement;
+    }
+}

@@ -1,0 +1,15 @@
+/*Este archivo se encarga de importar todos los archivos scss, como su nombre lo dice es un indice*/
+
+/*abstracts*/
+
+@use './abstracts/variables';
+@use './abstracts/mixins';
+
+/*base*/
+
+@use './base/resets';
+@use './base/base';
+
+/*components*/
+
+@use './components/header';
