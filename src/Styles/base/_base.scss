@@ -1,4 +1,5 @@
 @import '/src/Styles/abstracts/variables';
+@import '/src/Styles/abstracts/mixins';
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 html, body, button {
@@ -20,17 +21,32 @@ html, body, button {
     width: 70px;
     height: 45px;
 
+    cursor: pointer;
+
+    @include themeTransition;
+
     display: flex;
+    justify-content: center;
 
     &.light {
         background-color: $light-base;
-        justify-content: end;
         color: $light-complement;
+
+        #iconMode {
+            transform: translateX(15px);
+            @include themeTransition;
+        }
     }
 
     &.dark {
         background-color: $dark-base;
-        justify-content: start;
         color: $dark-complement;
+
+        #iconMode {
+            transform: translateX(-15px);
+            @include themeTransition;
+        }
     }
+
+
 }

@@ -9,7 +9,7 @@ const App = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light');
   }
 
-  const icon = theme === 'light' ? <BsFillSunFill /> : <BsFillMoonFill />
+  const icon = theme === 'light' ? <BsFillSunFill id="iconMode"/> : <BsFillMoonFill id="iconMode"/>
 
   return (
     <div >
