@@ -1,14 +1,14 @@
 import React from 'react'
 
-const Navbar = (props) => {
+const Navbar = () => {
   return (
   <div>
-    <nav className={props.className}>
+    <nav>
         <ul className='navMenu'>
-            <li>Que es</li>
-            <li>Funcionalidad</li>
-            <li>JSX</li>
-            <li>Componentes</li>
+            <li><a href="#whatIs">Que es</a></li>
+            <li><a href="#functionality">Funcionalidad</a></li>
+            <li><a href="#JSX">JSX</a></li>
+            <li><a href='#componentes'>Componentes</a></li>
         </ul>
     </nav>
     </div>

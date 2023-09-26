@@ -28,25 +28,49 @@ html, body, button {
     display: flex;
     justify-content: center;
 
-    &.light {
-        background-color: $light-base;
-        color: $light-complement;
+    background-color: $light-base;
+    color: $light-complement;
 
-        #iconMode {
-            transform: translateX(15px);
-            @include themeTransition;
-        }
+    opacity: .3;
+
+    #iconMode {
+        transform: translateX(15px);
+        @include themeTransition;
     }
 
     &.dark {
-        background-color: $dark-base;
-        color: $dark-complement;
+        background-color: $dark-complement;
+        color: $dark-base;
 
         #iconMode {
             transform: translateX(-15px);
-            @include themeTransition;
         }
     }
 
+    &:hover {
+        opacity: 1;
+    }
+
+
+}
+
+/*sections*/
+
+section {
+
+    width: 100%;
+    height: 100vh;
+    padding: 25px;
+    @include themeTransition;
+    background-color: rgb(231, 231, 231);
+
+    &:first-of-type {
+        height: calc(100vh - $headerHeight);
+    }
+
+    &.dark {
+        background-color: $light-complement;
+        color: $dark-complement;
+    }
 
 }

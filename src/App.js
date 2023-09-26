@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Header from './Components/Header';
+import MainSections from "./Components/mainSections";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <div >
       <Header className={theme}/>
+      <MainSections className={theme}/>
       <button id="themeSwitch" onClick={switchThemes} className={theme}> {icon} </button>
     </div>
   );
