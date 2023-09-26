@@ -1,10 +1,11 @@
-import { useState } from "react";
 import Header from './Components/Header';
 import MainSections from "./Components/mainSections";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
+import { useLocalStorage } from "./useLocalStorage";
+
 
 const App = () => {
-  const [ theme, setTheme ] = useState("light");
+  const [ theme, setTheme ] = useLocalStorage('theme', 'light');
 
   const switchThemes = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light');
