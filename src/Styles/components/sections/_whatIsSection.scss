@@ -2,43 +2,39 @@
 @import '/src/Styles/abstracts/mixins';
 
 #whatIs {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#descriptionP {
-    font-size: 30px;
-
-    h2 {
-        font-weight: 500;
-        span {
-            color: $light-base;
+    .description {
+        h2 {
+            span {
+                color: $light-base;
+                background-color: $light-complement;
+                border-radius: 20px;
+                padding: 5px;
+                @include themeTransition;
+            }
         }
+    
+        p {
+            span {
+                color: rgb(212, 191, 0);
+            }
+    
+            span:nth-of-type(2) {
+                color: rgb(235, 58, 4);
+            }
+    
+            span:last-of-type {
+                color: $light-base;
+            }
+        }
+    
     }
-
-    p {
-        font-weight: 300;
-        span {
-            color: rgb(212, 191, 0);
-        }
-
-        span:nth-of-type(2) {
-            color: rgb(235, 58, 4);
-        }
-
-        span:last-of-type {
-            color: $light-base;
-        }
+    
+    #reactBigLogo {
+        width: fit-content;
+        display: flex;
+        font-size: 25em;
+        margin: 8px;
+        color: $light-base;
+        @include spinAnimation;
     }
-
-}
-
-#reactBigLogo {
-    width: fit-content;
-    display: flex;
-    font-size: 25em;
-    margin: 8px;
-    color: $light-base;
-    @include spinAnimation;
 }

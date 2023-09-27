@@ -62,7 +62,11 @@ section {
     height: 100vh;
     padding: 25px;
     @include themeTransition;
-    background-color: rgb(231, 231, 231);
+    background-color: $body-color-light;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
     &:first-of-type {
         height: calc(100vh - $headerHeight);
@@ -73,4 +77,19 @@ section {
         color: $dark-complement;
     }
 
+}
+
+/*ruleset for all the informative descriptions*/
+
+.description {
+    font-size: 30px;
+    margin: 5px;
+
+    .title {
+        font-weight: 500;
+    }
+
+    p {
+        font-weight: 300;
+    }
 }
