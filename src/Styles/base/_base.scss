@@ -49,6 +49,7 @@ html, body, button {
 
     &:hover {
         opacity: 1;
+        transform: scale(1.1);
     }
 
 
@@ -91,5 +92,14 @@ section {
 
     p {
         font-weight: 300;
+    }
+}
+
+.zoomImg {
+    @include themeTransition;
+
+    &:hover {
+        transform: scale(1.05);
+        border-radius: 40px;
     }
 }

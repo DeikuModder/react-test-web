@@ -17,7 +17,7 @@ const Functionality = (props) => {
       </div>
 
       <div id='reactImageFunc'>
-        <img src='https://mvpcluster.com/wp-content/uploads/2018/06/R8.png' alt='react-funcion'/>
+        <img src='https://mvpcluster.com/wp-content/uploads/2018/06/R8.png' alt='react-funcion' className='zoomImg'/>
       </div>
     </section>
   )
