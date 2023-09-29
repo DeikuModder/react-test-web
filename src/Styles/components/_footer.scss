@@ -1,0 +1,15 @@
+@import '/src/Styles/abstracts/variables';
+@import '/src/Styles/abstracts/mixins';
+
+footer {
+    background-color: $dark-base;
+    height: 70px;
+    padding: 20px;
+    @include flexSpaceEven;
+    font-size: 50px;
+    color: $dark-complement;
+
+    a {
+        color: $dark-complement;;
+    }
+}

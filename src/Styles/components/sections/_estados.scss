@@ -1,0 +1,66 @@
+@import '/src/Styles/abstracts/mixins';
+
+#estados {
+    .description {
+        text-align: center;
+    }
+}
+
+#estadoContador {
+    flex-direction: column;
+    justify-content: center;
+
+    .description {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    #counterBox {
+        border: 10px solid;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: 450px;
+
+        #counter {
+            font-size: 8em;
+            font-weight: 700;
+            text-align: center;
+            border: 4px solid;
+            border-radius: 50px;
+            width: 150px;
+            aspect-ratio: 1;
+        }
+    
+        #counterBtns {
+            
+            button {
+                margin: 10px;
+                font-size: 20px;
+                font-weight: 300;
+                letter-spacing: 2px;
+                cursor: pointer;
+                border: 4px double;
+                border-radius: 10px;
+                padding: 5px;
+                width: 120px;
+
+                &:first-of-type {
+                    background-color: rgb(8, 221, 44);
+                }
+
+                &:nth-of-type(2){
+                    background-color: rgb(219, 1, 1);
+                }
+
+                &:nth-of-type(3){
+                    background-color: rgb(10, 60, 223);
+                }
+            }
+        }
+    }
+}

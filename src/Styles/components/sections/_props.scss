@@ -1,0 +1,34 @@
+@import '/src/Styles/abstracts/variables';
+
+#props {
+    .description {
+        width: 600px;
+
+        p {
+            span:first-of-type{
+                color: purple;
+            }
+
+            span:nth-of-type(2){
+                color: $light-base;
+            }
+
+            span:nth-of-type(3){
+                color: $dark-complement;
+            }
+
+        }
+    }
+
+    #propsImg {
+        margin: 20px;
+        width: 600px;
+        height: 500px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}

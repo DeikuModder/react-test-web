@@ -24,6 +24,7 @@ const Navbar = () => {
         <button onClick={displayMenu} id='secondMenuBtn'><BsFillArrowDownCircleFill /></button>
 
         <ul id='secondaryMenu' data-visible="false">
+            <li><a href='#props'>Props</a></li>
             <li><a href='#estados'>Estados</a></li>
         </ul>
     </nav>
