@@ -22,15 +22,16 @@ footer {
     .toasts {
         background-color: rgb(245, 245, 245); 
         border-radius: 50px;
-        font-size: 25px;
-        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 300;
         font-style: italic;
         text-align: center;
         padding: 10px;
         color: black;
 
-        width: 250px;
-        height: 100px;
+        width: 200px;
+        height: 80px;
 
         display: flex;
         flex-direction: column;
