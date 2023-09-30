@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+### This is a informative blog!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my first webpage made with React, just wanted to do something while i was learning about React, and bunch of other front end technologies, so i've made this to not only write my notes on some of the things i learned, but to put them to the test as well, i'm very proud with the result
 
-## Available Scripts
+### Features 
 
-In the project directory, you can run:
+This webpage counts with:
+    -Dark mode (wich remains the same wether the user closed the page or not)
+    -Displayable menu
+    -Toasts
+    -A counter example using hooks
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### What i learned 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+With this project i learned a lot of stuff, the list is:
 
-### `npm test`
+    - Learned how to use node.js, and therefore install, uninstall and manage dependencies with the 'npm' command
+    - Develop a React website from scratch
+    - Learned the basic concepts of React (components, props, states)
+    - How to use hooks and make custom hooks
+    - Use of the local storage
+    - Basics of SASS
+    - Learned about github pages
+    - How to build and deploy a website
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Bugs 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+There's one bug, and another that is debatable if it's a bug or not
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The first one being that the toast duplicates slightly if the user pass the cursor over the buttons fast, kind of a messy behavior.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+And the second one being that the displayable menu stays displayed after the user presses to go to one the sections, as i said, this may not be a problem for some people, it's just that i don't like it lmao
 
-### `npm run eject`
+### Documentation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+These are the videos and docs that helped me understand the libraries i used for this page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-Video for the local storage and custom hooks [https://www.youtube.com/watch?v=uutiLsX5kFE&t=438s]
+-Video on how to build and deploy a page and upload it to gh pages [https://www.youtube.com/watch?v=OUsC13AEiUQ&t=275s]
+-Information on the basics of React [https://es.react.dev]
+-Information on the basics of SASS [https://sass-lang.com]
+-Docs about the Toasts [https://react-hot-toast.com]
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### NOTES/IMPORTANT
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I've made this webpage only for a test, as the name of the repository says, so i didn't make the mobile and tablet styles for it, so it only works on Desktop devices.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+That would be everything, hope you like this little project of React i've made!
