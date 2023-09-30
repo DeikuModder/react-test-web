@@ -8,9 +8,7 @@ const Header = (props) => {
   <div>
     <header className={props.className}>
 
-        <div id='reactImageHeader'> < FaReact /> </div>
-
-        <h1>React Blog</h1>
+        <h1><a href='https://deikumodder.github.io/react-test-web'>< FaReact id='logoHeader'/> ReactBlog</a></h1>
 
         <Navbar className={props.className}/>
 

@@ -26,7 +26,7 @@ const Footer = () => {
           toast.dismiss();
         }}
         >
-          <a target='_blank' href='<FaGithub />' rel='noreferrer'><FaGithub /></a>
+          <a target='_blank' href='https://github.com/DeikuModder/react-test-web' rel='noreferrer'><FaGithub /></a>
         </button>
 
         <button onMouseEnter={() => {
@@ -64,7 +64,7 @@ const Footer = () => {
 
         <Toaster gutter={0}
           toastOptions={{
-            duration: 1200,
+            duration: 1350,
             className: "toasts"
           }}
           />

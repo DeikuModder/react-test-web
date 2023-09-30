@@ -9,17 +9,26 @@ header {
     background-color: $light-base;
     padding: 10px;
 
-    #reactImageHeader {
-        font-size: 4em;
-        position: relative;
-        top: 6px;
-    }
-
     h1 {
-        position: relative;
-        right: 5.4em;
-        font-weight: 700;
-        border-bottom: 6px double $light-complement;
+        a {
+            position: relative;
+            right: 2em;
+            font-weight: 700;
+            font-size: 30px;
+            background-color: $light-complement;
+            padding: 15px;
+            border-radius: 50px;
+            color: $light-base;
+
+            display: flex;
+            align-items: center;
+        
+            @include themeTransition;
+
+            #logoHeader {
+                font-size: 50px
+            }
+        }
     }
 
     nav {
@@ -28,15 +37,20 @@ header {
         
         .navMenu {
             @include flexSpaceEven;
+            @include themeTransition;
             width: 500px;
-            font-weight: 300;
+            font-weight: 500;
+            border: 2px solid $light-complement;
             border-radius: 20px;
-            background-color: $light-complement;
-            color: $light-base;
+            padding: 8px;   
 
             li {
                 font-size: 25px;
                 font-style: italic;
+                border-radius: 20px;
+                background-color: $light-complement;
+                padding: 10px;
+                @include themeTransition;
 
                 a {
                     color: $light-base;
@@ -51,13 +65,14 @@ header {
             background: hsl(0 0% 0% / 0.8);
 
             position: absolute;
-            right: 40px;
-            top: 18px;
+            right: 60px;
+            top: 50px;
 
             border-radius: 30px;
             
             font-style: italic;
             font-size: 25px;
+            font-weight: 500;
 
             width: 300px;
             height: 50px;
@@ -88,9 +103,9 @@ header {
 
     #secondMenuBtn {
         position: absolute;
-        right: 40px;
+        right: 60px;
         top: 15px;
-        font-size: 40px;
+        font-size: 50px;
         color: $light-complement;
 
         cursor: pointer;
@@ -106,15 +121,20 @@ header {
         color: $dark-complement;
 
         h1 {
-            border-bottom: 6px double $dark-complement;
+            a {
+                color: $dark-base;
+                background-color: $dark-complement;
+            }
         }
 
         nav {
             
             .navMenu {
-                background-color: $dark-complement;
+
+                border: 2px solid $dark-complement;
 
                 li {
+                    background-color: $dark-complement;
                     a {
                         color: $dark-base;
                     }
