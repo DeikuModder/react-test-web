@@ -40,7 +40,7 @@ function EstadosEjemplo(props) {
 
         <div>
             <p className='description'>
-                Este contador es un ejemplo práctico de un estado. Creamos un <code>[counter, setCounter]</code> usando el <code>useState</code>, luego creamos las 3 funciones para sumar y restar uno, y resetear a 0 el contador, utilizando el <code>setCounter(a 0, contador + 1 o contador - 1)</code>, esto lo pasamos a los botones a traves de la funcion <code>onClick</code> y voilá! Un contador funcional usando React y sus estados. Notese que al presionar los botones, solo se re-renderizara el div que contiene el numero, y nada mas de la página.
+                Este contador es un ejemplo práctico de un estado. Creamos un <code>[counter, setCounter]</code> usando el <code>useState</code>, luego creamos las 3 funciones para sumar y restar uno, y resetear a 0 el contador, utilizando el <code>setCounter(a 0, contador + 1 o contador - 1)</code>, esto lo pasamos a los botones a traves de la funcion <code>onClick</code> y voilá! Un contador funcional usando React y sus estados. Notese que al presionar los botones, solo se re-renderizara el div que contiene el numero, y nada mas de la página. Hay un monton de otras cosas que no se explicaron aqui, los invito a investigar por su cuenta sobre todo lo que ofrece React!
             </p>
         </div>
             

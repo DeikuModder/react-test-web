@@ -4,7 +4,7 @@ const JSX = (props) => {
   return (
     <section className={props.className} id='JSX'>
       <div id='jsxCode'>
-        <img src='https://www.freecodecamp.org/news/content/images/2021/02/z02wxvp94dwg84c4ifhj.jpeg' alt='react-code' className='zoomImg'/>
+        <img src='https://www.freecodecamp.org/news/content/images/2021/02/z02wxvp94dwg84c4ifhj.jpeg' alt='react-code' className='zoomImg' loading='lazy'/>
       </div>
 
       <div className='description'>

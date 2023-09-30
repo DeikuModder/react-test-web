@@ -14,11 +14,11 @@ const Componentes = (props) => {
       </div>
 
       <div id='imgComponents'>
-        <img alt='componente-tipo-funcion' src='https://somospnt.com/images/blog/articulos/177-componentes-en-react/componente_funcional.png' className='zoomImg'/>
+        <img alt='componente-tipo-funcion' src='https://somospnt.com/images/blog/articulos/177-componentes-en-react/componente_funcional.png' className='zoomImg' loading='lazy'/>
 
         <p>Ejemplo de componente tipo función</p>
 
-        <img alt='componente-tipo-clase' src='https://somospnt.com/images/blog/articulos/177-componentes-en-react/componente_de_clase.png' className='zoomImg'/>
+        <img alt='componente-tipo-clase' src='https://somospnt.com/images/blog/articulos/177-componentes-en-react/componente_de_clase.png' className='zoomImg' loading='lazy'/>
 
         <p>Ejemplo de componente tipo clase</p>
       </div>
