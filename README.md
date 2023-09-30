@@ -35,7 +35,7 @@ And the second one being that the displayable menu stays displayed after the use
 
 ### Documentation
 
-These are the videos and docs that helped me understand the libraries i used for this page
+These are the videos and docs that helped me understand the libraries i used for this page:
 
 -Video for the local storage and custom hooks [https://www.youtube.com/watch?v=uutiLsX5kFE&t=438s]
 -Video on how to build and deploy a page and upload it to gh pages [https://www.youtube.com/watch?v=OUsC13AEiUQ&t=275s]
@@ -45,7 +45,7 @@ These are the videos and docs that helped me understand the libraries i used for
 
 ### NOTES/IMPORTANT
 
-I've made this webpage only for a test, as the name of the repository says, so i didn't make the mobile and tablet styles for it, so it only works on Desktop devices.
+I've made this webpage only for a test, as the name of the repository says, so i didn't make the mobile and tablet styles for it, it only works on Desktop devices.
 
 
 That would be everything, hope you like this little project of React i've made!
