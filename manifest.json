@@ -3,7 +3,7 @@
   "name": "React Blog",
   "icons": [
     {
-      "src": "icon.ico",
+      "src": "favicon.ico",
       "sizes": "64x64",
       "type": "image/x-icon"
     }
